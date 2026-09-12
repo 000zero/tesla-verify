@@ -1,0 +1,5 @@
+# Never commit the private key. Only the public key under
+# .well-known/appspecific/ belongs in this repo — that one is meant to be
+# public (Tesla fetches it to verify domain ownership).
+/private-key.pem
+/com.tesla.3p.public-key.pem
